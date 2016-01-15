@@ -50,3 +50,34 @@ position:fixed;
 bottom:2px;
 right:2px;
 }
+navbar-inverse {
+background-color: #FFFFFF;
+border-color: rgba(127, 90, 5, 1);
+padding: 20px 0;
+}
+.navbar-inverse .navbar-nav > li > a {
+color: #1B0B03;
+}
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+color: #1B0B03;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+color: #fff;
+background-color: #8B4513;
+border-radius: 15px 0px 15px 0px;
+}
+.navbar-inverse .navbar-toggle {
+border-color: #333;
+background: rgb(31, 14, 7);
+}
+.tb {
+display: table;
+width: 100%;
+}
+.tb-cell {
+display: table-cell;
+vertical-align: middle;
+}
+.text-center {
+text-align: center;
+}
