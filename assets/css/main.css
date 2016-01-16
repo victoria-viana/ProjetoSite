@@ -1316,6 +1316,7 @@
 		background-size: auto, cover;
 		background-position: top left, center 0;
 		background-attachment: fixed, fixed;
+
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 18pt;
 		line-height: 1.75em;
@@ -2271,7 +2272,7 @@
 				background-repeat: repeat, no-repeat;
 				background-size: auto, 100% auto;
 				background-position: top left, top center;
-				background-attachment: scroll, scroll;
+				background-attachment: scroll, fixed;
 				font-size: 14pt;
 			}
 
@@ -2573,10 +2574,10 @@
 	border-radius: 50%;
     height: 300px;
     width: 300px;
-    background-color: white;
     margin: 0 auto;
     margin-top: 125px;
-  
+   
+   
 }
 
 
@@ -2590,16 +2591,27 @@ z-index:10;
 
 .textodono{
 	text-align:center;
-	padding-top: 350px;
-	margin: 0 auto;
-	width: 100px;
-	height: 50px;
+	
 }
 
 #caixadono{
-	width: 100px;
-	height: 50px;
-	background: ;
+	line-height: 15px;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+	width: 100%;
+	height: 31%;
+	background:white ;
 	margin:0 auto;
+	margin-top: 115%;
+	position:absolute;
+	z-index: 9;
+}
 
+.facebook{
+	width: 40%;
+	height: auto;
+}
+
+#galeria{
+	margin-top: 18em;
 }
