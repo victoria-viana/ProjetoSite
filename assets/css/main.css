@@ -2567,3 +2567,39 @@
 	.text-mute{
 		color: white;
 	}
+
+
+.circulo{
+	border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 125px;
+  
+}
+
+
+.botaotopo {
+display:scroll;
+position:fixed;
+right:0pt;
+bottom:2px;
+z-index:10;
+}
+
+.textodono{
+	text-align:center;
+	padding-top: 350px;
+	margin: 0 auto;
+	width: 100px;
+	height: 50px;
+}
+
+#caixadono{
+	width: 100px;
+	height: 50px;
+	background: ;
+	margin:0 auto;
+
+}
