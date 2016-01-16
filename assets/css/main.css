@@ -1316,6 +1316,7 @@
 		background-size: auto, cover;
 		background-position: top left, center 0;
 		background-attachment: fixed, fixed;
+
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 18pt;
 		line-height: 1.75em;
@@ -2011,7 +2012,7 @@
 	}
 	#titulobanner1{
 		text-decoration: overline;
-		margin-top: -20px;
+		margin-top: -10px;
 
 	}
 
@@ -2052,8 +2053,66 @@
 
 			.banner a:hover {
 				border-bottom-color: rgba(255, 255, 255, 0);
+	
+		}
+	@media screen and (max-width: 840px) {
+			.banner {
+		position: relative;
+		color: #fff;
+		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
+		text-align: center;
+		background:  url("images/banner.svg") bottom center no-repeat;
+		padding: 5em 0 5em 0;
+		margin: 0;
+		background-size: 125% auto;
+	}
+	#titulobanner1{
+		text-decoration: overline;
+		margin-top: -20px;
+
+	}
+
+	#titulobanner2{
+	text-decoration: underline;
+	padding-bottom: 5%;
+	}
+}
+	}
+
+		.banner .button {
+			color: #35b882;
+			text-shadow: 0 0 0.5px rgba(53, 184, 130, 0.25);
+		}
+
+		.banner header {
+			margin: 0 0 2em 0;
+
+		}
+
+			.banner header h2 {
+				font-weight: 200;
+				font-size: 1.25em;
+				letter-spacing: 6px;
 			}
 
+		.banner p {
+			margin: 100;
+		}
+
+		.banner footer {
+			margin: 2em 0 0 0;
+		}
+
+		.banner a {
+			color: inherit;
+			border-bottom-color: rgba(255, 255, 255, 0.5);
+		}
+
+			.banner a:hover {
+				border-bottom-color: rgba(255, 255, 255, 0);
+	
+		}
+}
 /* Footer */
 
 	#footer {
@@ -2088,10 +2147,10 @@
 
 		#footer .icons {
 			padding: 0.75em 2em 0.75em 2em;
-			border-radius: 3em;
+			border-radius: 2em;
 			border: solid 1px #fff;
 			display: inline-block;
-			margin: 0 0 3em 0;
+			margin: 0 0 2em 0;
 		}
 
 		#footer .copyright {
@@ -2258,6 +2317,17 @@
 			}
 
 	}
+	@media screen and (max-width: 840px) {
+
+		/* Banner */
+
+			#banner {
+				padding: 2em 0 2em 0;
+				background-size: auto, 100% auto;
+			}
+
+	}
+
 
 /* Narrow */
 
@@ -2271,16 +2341,16 @@
 				background-repeat: repeat, no-repeat;
 				background-size: auto, 100% auto;
 				background-position: top left, top center;
-				background-attachment: scroll, scroll;
-				font-size: 14pt;
+				background-attachment: scroll, fixed;
+				font-size: 12pt;
 			}
 
 			input, textarea, select {
-				font-size: 14pt;
+				font-size: 12pt;
 			}
 
 			h1, h2, h3, h4, h5, h6 {
-				line-height: 1.5em;
+				line-height: 1.25em;
 			}
 
 			header p {
@@ -2407,6 +2477,22 @@
 				padding: 0.75em 0 0.75em 0;
 				width: 100%;
 				max-width: 320px;
+			}
+
+			@media screen and (max-width: 840px){
+				/* Button */
+
+			input[type="button"],
+			input[type="submit"],
+			input[type="reset"],
+			button,
+			.button {
+				padding: 0.75em 0 0.75em 0;
+				width: 50%;
+				max-width: 160px;
+			}
+
+
 			}
 
 		/* Box */
@@ -2567,3 +2653,124 @@
 	.text-mute{
 		color: white;
 	}
+
+
+.circulo{
+	border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 125px;
+   
+   
+}
+
+
+.botaotopo {
+display:scroll;
+position:fixed;
+right:0pt;
+bottom:2px;
+z-index:10;
+}
+
+.textodono{
+	text-align:center;
+	
+}
+
+#caixadono{
+	line-height: 15px;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+	width: 100%;
+	height: 31%;
+	background:white ;
+	margin:0 auto;
+	margin-top: 115%;
+	position:absolute;
+	z-index: 9;
+}
+
+.facebook{
+	width: 40%;
+	height: auto;
+}
+
+#galeria{
+	margin-top: 18em;
+}
+
+@media screen and (max-width: 840px){
+
+	#services{
+		background: #35B88F;
+		padding-bottom: 3%;
+		background: #35b88f url("images/banner.svg") bottom center no-repeat;
+		background-size: 125% auto;
+    	
+	}
+
+
+
+	.bolinha{
+		width:70%; 
+		height:70%;
+		padding-bottom: 8%;
+	}
+
+
+	.text-mute{
+		color: white;
+	}
+
+
+.circulo{
+	border-radius: 100%;
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 125px;
+   
+   
+}
+
+
+.botaotopo {
+display:scroll;
+position:fixed;
+right:0pt;
+bottom:2px;
+z-index:10;
+}
+
+.textodono{
+	text-align:center;
+	
+}
+
+#caixadono{
+	line-height: 15px;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+	width: 100%;
+	height: 31%;
+	background:white ;
+	margin:0 auto;
+	margin-top: 120%;
+	position:absolute;
+	z-index: 9;
+}
+
+.facebook{
+	width: 40%;
+	height: auto;
+}
+
+#galeria{
+	margin-top: 18em;
+}
+
+
+
+}
